@@ -9,7 +9,7 @@ function App(props) {
       <div className='App'>
         <header className='Fiora'>
           <div className='linked-in'>
-            <a href='https://www.linkedin.com/in/fiorademarco'>Linkedin</a>
+            <a href='https://www.linkedin.com/in/fiorademarco'>Linkedinyes</a>
           </div>
           <div>
             <div className='portfolio-name'>
