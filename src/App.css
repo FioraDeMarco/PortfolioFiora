@@ -1,3 +1,6 @@
+/*
+THIS IS THE RIGHT ONE
+*/
 body {
   /* background: url(https://empirestateplaza.ny.gov/sites/g/files/oee991/files/media/2020/01/nyc-building-the-8th-avenue-subway.jpg); */
   /* background: url(https://images.saatchiart.com/saatchi/672791/art/7557251/6625967-HSC00002-7.jpg); */
@@ -60,7 +63,7 @@ body {
   max-width: 800px;
 }
 .linked-in {
-  color: white;
+  display: flex;
 }
 .container {
   background-color: rgb(97, 96, 96);
@@ -71,4 +74,8 @@ a {
 }
 a:hover {
   color: gold;
+}
+.icon {
+  height: 35px;
+  width: 35px;
 }

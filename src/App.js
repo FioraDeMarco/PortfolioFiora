@@ -9,7 +9,9 @@ function App(props) {
       <div className='App'>
         <header className='Fiora'>
           <div className='linked-in'>
-            <a href='https://www.linkedin.com/in/fiorademarco'>Linkedinyes</a>
+            <a href='https://www.linkedin.com/in/fiorademarco'>
+              <img className='icon' src={require("./linkedin-icon.png")} />
+            </a>
           </div>
           <div>
             <div className='portfolio-name'>
@@ -21,7 +23,9 @@ function App(props) {
           {/* <a href='https://drive.google.com/file/d/1Sw8u4sdK3iyRnHk5Ay0okk2wyURmVGRH/view?usp=sharing'>
             Resume
           </a> */}
-          <a href='https://github.com/FioraDeMarco'>GitHub</a>
+          <a href='https://github.com/FioraDeMarco'>
+            <img className='icon' src={require("./GitHub-Mark.png")} />
+          </a>
         </header>
       </div>
       <div className='display-flex'>

@@ -13,7 +13,9 @@ export class Portfolio extends React.Component {
           {/* <div className='App'> */}
           <header className='Fiora'>
             <div className='linked-in'>
-              <a href='https://www.linkedin.com/in/fiorademarco'>Linkedin</a>
+              <a href='https://www.linkedin.com/in/fiorademarco'>
+                <img className='icon' src={require("./linkedin-icon.png")} />
+              </a>
             </div>
             <div>
               <Link to='/App'>
@@ -28,7 +30,9 @@ export class Portfolio extends React.Component {
             {/* <a href='https://drive.google.com/file/d/1Sw8u4sdK3iyRnHk5Ay0okk2wyURmVGRH/view?usp=sharing'>
               Resume
             </a> */}
-            <a href='https://github.com/FioraDeMarco'>GitHub</a>
+            <a href='https://github.com/FioraDeMarco'>
+              <img className='icon' src={require("./GitHub-Mark.png")} />
+            </a>
           </header>
           {/* </div> */}
         </div>
